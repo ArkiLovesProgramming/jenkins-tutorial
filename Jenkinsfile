@@ -1,6 +1,6 @@
 pipeline {
   agent any
-  environments {
+  environment {
     test_value = 'Hello!'
   }
   stages {
